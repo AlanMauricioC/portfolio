@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
-import { Typography } from "@material-ui/core";
 import { useTheme } from "@material-ui/core/styles";
+import Navigation from './components/Navigation'
 
 function App() {
   const theme = useTheme();
@@ -10,9 +10,7 @@ function App() {
       className="App"
       style={{ backgroundColor: theme.palette.background.default }}
     >
-      <Typography variant="h3" color="primary">
-        Hola soy alan
-      </Typography>
+      <Navigation/>
     </div>
   );
 }
