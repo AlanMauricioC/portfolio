@@ -1,14 +1,14 @@
 import React from "react";
 import SideBar from "./SideBar";
 import { Switch, Route } from "react-router-dom";
-import AboutMe from '../AboutMe'
+import Home from '../Home'
 
 const Navigation = () => {
   return (
     <SideBar>
       <Switch>
-          <Route exact path='/' component={AboutMe} />
-          <Route exact path='/aboutme' component={AboutMe} />
+          <Route exact path='/' component={Home} />
+          <Route exact path='/home' component={Home} />
       </Switch>
     </SideBar>
   );

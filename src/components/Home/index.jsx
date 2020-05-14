@@ -19,7 +19,7 @@ const styles = makeStyles((theme) => ({
   },
 }));
 
-const AboutMe = () => {
+const Home = () => {
   const classes = styles();
   return (
     <div className={classes.root}>
@@ -36,7 +36,7 @@ const AboutMe = () => {
           <Grid item container alignContent={"center"} justify={"center"}>
             <Hidden mdUp>
             <Grid item xs={12}>
-              <Grid item container alignContent={"center"} justify={"center"}>
+              <Grid item container alignContent={"center"} justify={"center"} style={{overflow:'hidden'}}>
               <Avatar
                 alt="profilePhoto"
                 src={process.env.PUBLIC_URL + "profile2.jpg"}
@@ -46,8 +46,8 @@ const AboutMe = () => {
             </Grid>
             </Hidden>
             <Grid item>
-              <Typography variant="h1" color="textPrimary" align="center">
-                Hola, soy{" "}
+              <Typography variant="h1" color="textPrimary" align="center" style={{ paddingLeft: "2rem" }}>
+                Hola, soy
               </Typography>
             </Grid>
             <Grid item>
@@ -55,7 +55,7 @@ const AboutMe = () => {
                 variant="h1"
                 color="primary"
                 display="inline"
-                style={{ marginLeft: "2rem" }}
+                style={{ paddingLeft: "2rem" }}
               >
                 {" Alan. "}
               </Typography>
@@ -65,7 +65,7 @@ const AboutMe = () => {
             <Typography
               variant="subtitle1"
               color="textSecondary"
-              display="inline"
+              align='center'
             >
               Ing. en sistemas computacionales / Web developer
             </Typography>
@@ -95,4 +95,4 @@ const AboutMe = () => {
   );
 };
 
-export default AboutMe;
+export default Home;
