@@ -13,13 +13,11 @@ import { Link } from "react-router-dom";
 import PersonRoundedIcon from "@material-ui/icons/PersonRounded";
 import LocalShippingRoundedIcon from "@material-ui/icons/LocalShippingRounded";
 import HistoryRoundedIcon from "@material-ui/icons/HistoryRounded";
-import LocalMallRoundedIcon from "@material-ui/icons/LocalMallRounded";
-import ExitToAppRoundedIcon from "@material-ui/icons/ExitToAppRounded";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import MailIcon from '@material-ui/icons/Mail';
 import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 import HomeIcon from '@material-ui/icons/Home';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 const drawerWidth = 240;
 
@@ -148,9 +146,9 @@ export default function User({ children }) {
               <MenuItem title={"WhatsApp"} Icon={WhatsAppIcon} />
             </ListItem>
           </a>
-          <a href="https://wa.me/5214432672986">
+          <a href="https://github.com/AlanMauricioC">
             <ListItem button>
-              <MenuItem title={"LinkedIn"} Icon={LinkedInIcon} />
+              <MenuItem title={"GitHub"} Icon={GitHubIcon} />
             </ListItem>
           </a>
         </List>
