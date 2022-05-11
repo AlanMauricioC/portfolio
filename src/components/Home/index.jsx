@@ -39,7 +39,7 @@ const Home = () => {
               >
                 <Avatar
                   alt="profilePhoto"
-                  src={process.env.PUBLIC_URL + "profile2.jpg"}
+                  src={process.env.PUBLIC_URL + "/profile2.jpg"}
                   className={classes.avatar}
                 />
               </Grid>
@@ -85,7 +85,7 @@ const Home = () => {
           <Grid item>
             <Avatar
               alt="profilePhoto"
-              src={process.env.PUBLIC_URL + "profile2.jpg"}
+              src={process.env.PUBLIC_URL + "/profile2.jpg"}
               className={classes.avatar}
             />
           </Grid>

@@ -89,7 +89,7 @@ export default function Aboutme() {
           <Grid item>
             <Avatar
               alt="profilePhoto"
-              src={process.env.PUBLIC_URL + "profile.jpg"}
+              src={process.env.PUBLIC_URL + "/profile.jpg"}
               className={classes.avatar}
             />
           </Grid>
