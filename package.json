@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-    "homepage": "https://alanmauricioc.github.io",
+  "homepage": "https://alanmauricioc.github.io/portfolio/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.9.13",
@@ -27,9 +27,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-      "eject": "react-scripts eject",
-      "predeploy":"yarn run build",
-      "deploy":"gh-pages -d build"
+    "eject": "react-scripts eject",
+    "predeploy":"yarn run build",
+    "deploy":"gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
