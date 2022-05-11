@@ -8,9 +8,9 @@ const Navigation = () => {
   return (
     <SideBar>
       <Switch>
-          <Route exact path='/' component={Home} />
           <Route exact path='/home' component={Home} />
           <Route exact path='/aboutme' component={Aboutme} />
+          <Route path='/' component={Home} />
       </Switch>
     </SideBar>
   );
